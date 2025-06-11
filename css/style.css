@@ -261,7 +261,7 @@ img{
 .accuracy-setups{
     background-color: #000;
 }
-.accuracy-setups, .section-smart-money{
+.accuracy-setups{
     color:#fff;
     padding:40px 0;
 }
@@ -659,8 +659,8 @@ img{
         flex-direction: column;
         align-items: center;
     }
-    .accuracy-setups, .section-smart-money{
-        padding:20px 0;
+    .accuracy-setups{
+        padding:40px 0;
     }
     .pricing .pricing-flex{
         flex-direction: column;
