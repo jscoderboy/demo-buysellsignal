@@ -41,12 +41,11 @@ img{
 }
 .navbar{
     color:#fff;
-    padding:20px 0;
+    /* padding:20px 0; */
     background-color: var(--primary-color);
 }
 .navbar .logo{
-    font-weight: 700;
-    font-size:1.4rem;
+    width:100px;
 }
 .navbar .navbar-flex{
     display: flex;
@@ -79,7 +78,7 @@ img{
 }
 .header .banner{
     position:fixed;
-    top:70px;
+    top:100px;
     width: 100%;
     z-index: 1000;
 }
@@ -647,8 +646,11 @@ img{
     .common-section, .mobile-friendly .flex-container,.pricing, .faq, .community, .footer{
         margin:20px 0;
     }
+    .navbar{
+        padding-bottom:5px;
+    }
     .navbar .navbar-flex{
-        flex-direction: column;
+        /* flex-direction: column; */
         gap:15px;
     }
     .header .banner{
@@ -718,6 +720,7 @@ img{
   }
   /* Tablet */
   @media(max-width:768px){
+    
     .secondary-heading{
         font-size:30px;
     }
