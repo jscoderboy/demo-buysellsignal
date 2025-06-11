@@ -368,19 +368,19 @@ img{
     background: linear-gradient(to bottom, #fffaf5 0, #f8ecff 100%);
     color:#333;
 }
-.pricing .premium-details .d-flex{
+.pricing .premium-details .d-flex, .with-without .d-flex{
     display: flex;
     align-items: center;
     gap:1rem;
     margin-bottom:15px;;
 }
-.pricing .premium-details .d-flex span{
+.pricing .premium-details .d-flex span, .with-without .d-flex span{
     font-size:0.98rem;
     color:#000000;
     font-weight: 600;
     line-height: 1.4;
 }
-.pricing .premium-details i{
+.pricing .premium-details i, .with-without .d-flex i{
     background-color: var(--secondary-color);
     color:#000;
     border-radius: 50%;
@@ -467,6 +467,44 @@ img{
   .card-container .card h3{
     margin-bottom:20px;
     font-weight: 500;
+  }
+  /* With or Without section styling */
+  .with-without{
+    padding:20px 0;
+    color:#fff;
+  }
+  .with-without .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border-style: solid;
+    border-width: 1px 1px 4px 1px;
+    border-color: #394259;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding:15px 20px;
+    background-color: #171F33;
+    border-radius: 12px 12px 12px 12px;
+  }
+  .with-without .flex-container .item-logo img{
+   max-width: 300px;
+  }
+  .with-without .without-item h3, .with-without .with-item h3{
+    margin-bottom: 20px;
+  }
+  .with-item .d-flex span, .without-item .d-flex span{
+    color:#f4f4f4;
+  }
+  .with-without .without-item .d-flex i{
+    background-color: red;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+  }
+  .with-without .with-item .d-flex i{
+    background-color: #009C86;
+    color:#fff;
+    
   }
 /* Reviews */
 .review-section{
@@ -697,7 +735,11 @@ img{
         font-size:0.85rem;
         margin-top: 4px;
     }
-    
+    .with-without .flex-container{
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+    }
     .community .secondary-heading{
         line-height: 1.2;
     }
