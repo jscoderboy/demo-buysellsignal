@@ -286,6 +286,7 @@ img{
 }
 .accuracy-setups .secondary-heading{
     margin-top:15px;
+    line-height: 1.3;
 }
 .accuracy-setups .overlays{
     background-color: transparent;
@@ -622,6 +623,9 @@ img{
   /* Media Query */
   /* Mobile */
   @media(max-width:600px){
+    .hero{
+        padding:20px 0;
+    }
       .hero .main-heading h1{
         font-size:1rem;
       }
