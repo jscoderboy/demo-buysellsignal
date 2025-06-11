@@ -366,12 +366,14 @@ img{
     margin-bottom:15px;;
 }
 .pricing .premium-details .d-flex span{
-    font-size:0.95rem;
-    opacity: 0.8;
+    font-size:0.98rem;
+    color:#000000;
+    font-weight: 600;
+    line-height: 1.4;
 }
 .pricing .premium-details i{
-    background-color: #333;
-    color:#ffffff;
+    background-color: var(--secondary-color);
+    color:#000;
     border-radius: 50%;
     padding:6px;
     font-size:12px;
