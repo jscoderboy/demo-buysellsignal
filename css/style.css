@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *,
 *::before,
 *::after{
@@ -33,7 +33,6 @@ img{
     padding: 0 2rem;
 }
 .secondary-heading{
-    /* font-size:2rem; */
     font-size: 50px;
     font-weight: 600;
     color: #FFFFFF;
@@ -41,7 +40,6 @@ img{
 }
 .navbar{
     color:#fff;
-    /* padding:20px 0; */
     background-color: var(--primary-color);
 }
 .navbar .logo{
@@ -95,6 +93,7 @@ img{
     padding:8px 0;
     gap:5px;
     background-color: var(--secondary-color);
+    font-family: "Roboto", sans-serif;
 }
 .hero{
     color:#fff;
@@ -136,14 +135,11 @@ img{
     color: #ffffff;
     font-weight: 700;
     font-family: "Onest", Sans-serif;
-    /* -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;         */
 }
 .hero .main-heading p{
     font-size:1.5rem;
     margin:20px 0;
+    font-family: "Roboto", sans-serif;
 }
 .hero .primary-cta{
     margin-top: 40px;
@@ -191,30 +187,16 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap:1rem;
     margin:40px 0;
-    /* animation:appear linear;
-    animation-timeline:view();
-    animation-range:entry 30% cover 40%; */
 }
 .features .card{
-    /* max-width:400px; */
     padding:20px 20px;
-    /* border:1px solid gray; */
     border-style: solid;
     border-width: 1px 1px 4px 1px;
     border-color: #394259;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin: 10px 10px 10px 10px;
     border-radius: 15px 15px 15px 15px;
-    /* transform:translateX(200%);
-    transition:transform 0.5s ease; */
 }
-/* .features .card:nth-of-type(even){
-    transform:translateX(-200%);
-}
-.features .card.show{
-    transform: translateX(0);
-} */
-
 .features .card img{
     width:100%;
 }
@@ -222,7 +204,6 @@ img{
     padding:12px 0;
     opacity: 0.8;
     font-size:0.95rem;
-    
 }
 .access-cta a{
      color:#00F2D0;
@@ -283,7 +264,6 @@ img{
     align-items: center;
 }
 .accuracy-setups video{
-    /* max-width: 500px; */
     width:100%;
     border-style: solid;
     border-width: 1px 1px 4px 1px;
@@ -406,7 +386,6 @@ img{
     box-shadow: 0 10px 15px 0 rgba(175, 0, 202, .2);
     width:100%;
 }
-
 .countdown-container {
     display: flex;
     justify-content: center;
@@ -414,7 +393,6 @@ img{
     gap: 20px;
     padding-top:20px 0 10px 0;
   }
-
   .time-box {
     background: #333;
     color: #fff;
@@ -424,12 +402,10 @@ img{
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     min-width: 50px;
   }
-
   .time-box h1 {
     margin: 0;
     font-size: 2rem;
   }
-
   .time-box span {
     display: block;
     margin-top: 8px;
@@ -503,8 +479,7 @@ img{
   }
   .with-without .with-item .d-flex i{
     background-color: #009C86;
-    color:#fff;
-    
+    color:#fff;  
   }
 /* Reviews */
 .review-section{
@@ -529,7 +504,6 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
   .carousel-slide {
     display: flex;
     width: 100%;
@@ -551,7 +525,6 @@ img{
     margin:40px auto;
 
   }
-
   .faq-item {
     background: white;
     border-radius: 10px;
@@ -559,7 +532,6 @@ img{
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     overflow: hidden;
   }
-
   .faq-question {
     display: flex;
     align-items: center;
@@ -568,7 +540,6 @@ img{
     font-weight: bold;
     cursor: pointer;
   }
-
   .faq-answer {
     max-height: 0;
     overflow: hidden;
@@ -576,20 +547,16 @@ img{
     background-color: #fafafa;
     transition: max-height 0.3s ease, padding 0.3s ease;
   }
-
   input[type="checkbox"] {
     display: none;
   }
-
   .faq-item input:checked ~ .faq-answer {
     max-height: 200px;
     padding: 15px 20px;
   }
-
   .faq-item input:checked ~ .faq-question .icon::before {
     content: "-";
   }
-
   .icon::before {
     content: "+";
     font-size: 20px;
