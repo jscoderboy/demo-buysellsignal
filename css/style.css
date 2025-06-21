@@ -186,7 +186,7 @@ img{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     gap:1rem;
-    margin:40px 0;
+    margin:40px 0 10px 0;
 }
 .features .card{
     padding:20px 20px;
