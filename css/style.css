@@ -328,15 +328,12 @@ img{
     border-width: 1px 0px 4px 1px;
     border-color: #394259;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    /* margin: 10px 0px 20px 10px; */
-    /* padding:20px 40px 20px 40px; */
     padding:10px 0;
     width:50%;
 }
 .pricing .pricing-flex{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin-top:30px;    
 }
 .pricing .premium-details{
@@ -366,7 +363,6 @@ img{
 .pricing .premium-details{
     padding:20px 20px;
     background-color: transparent;
-    /* background-image: linear-gradient(132deg, #CE83FF 0%, #787FFF 100%); */
     background: linear-gradient(to bottom, #fffaf5 0, #f8ecff 100%);
     color:#333;
 }
@@ -401,8 +397,6 @@ img{
     font-family: "Onest", Sans-serif;
     font-size: 16px;
     font-weight: 500;
-    /* fill: #000000; */
-    /* color: #000000; */
     color:#ffffff;
     border-style: none;
     border-radius: 12px 12px 12px 12px;
@@ -465,6 +459,10 @@ img{
     margin: 10px 15px 10px 10px;
     background-color: #171F33;
     border-radius: 12px 12px 12px 12px;
+  }
+  .setup .card-container .card:hover{
+    transform: scale(1.05);
+    transition:1s ease-out;
   }
   .card-container .card h3{
     margin-bottom:20px;
@@ -623,19 +621,15 @@ img{
     align-items: center;
   }
   .community .join-cta{
-    /* text-align: center; */
     margin-top: 15px;
   }
   .community .join-cta i{
     margin-right:10px;
   }
   .community .join-cta a{
-    /* background-color: #FFFFFF; */
     font-family: "Onest", Sans-serif;
     font-size: 16px;
     font-weight: 500;
-    /* fill: #000000;
-    color: #000000; */
     color:#fff;
     border-style: none;
     border-radius: 12px 12px 12px 12px;
@@ -658,19 +652,6 @@ img{
     color:#fff;
     line-height: 1.9;
   }
-  /* Animations */
-  /* @keyframes appear{
-    from{
-        opacity: 0;
-        scale:0.5;
-    }
-    to{
-        opacity: 1;
-        scale:1;
-    }
-  } */
-
-
   /* Media Query */
   /* Mobile */
   @media(max-width:600px){
@@ -680,9 +661,6 @@ img{
       .hero .main-heading h1{
         font-size:1rem;
       }
-    .hero .main-heading p{
-   
-    }
     .common-section, .mobile-friendly .flex-container,.pricing, .faq, .community, .footer{
         margin:20px 0;
     }
@@ -690,7 +668,6 @@ img{
         padding-bottom:5px;
     }
     .navbar .navbar-flex{
-        /* flex-direction: column; */
         gap:15px;
     }
     .header .banner{
@@ -778,9 +755,6 @@ img{
      }
      .hero .primary-cta{
         margin-top:20px;
-     }
-     .features .features-card{
-        /* grid-template-columns: 1fr; */
      }
      .mobile-friendly .flex-container, .accuracy-setups .flex-container{
         flex-direction: column;
