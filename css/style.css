@@ -436,6 +436,7 @@ img{
     background-color: #171F33;
     border-radius: 12px 12px 12px 12px;
   }
+ 
   .setup .card-container .card:hover{
     transform: scale(1.05);
     transition:1s ease-out;
@@ -681,10 +682,16 @@ img{
         font-size:0.85rem;
         margin-top: 4px;
     }
+    .setup .card-container{
+        margin-top:22px;
+    }
     .with-without .flex-container{
         flex-direction: column;
         gap:20px;
         align-items: center;
+    }
+    .with-without .flex-container .item-logo img {
+        max-width: 235px;
     }
     .community .secondary-heading{
         line-height: 1.2;
