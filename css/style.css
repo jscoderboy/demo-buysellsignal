@@ -95,6 +95,7 @@ img{
     background-color: var(--secondary-color);
     font-family: "Roboto", sans-serif;
 }
+
 .hero{
     color:#fff;
     background-color: var(--primary-color);
@@ -159,11 +160,9 @@ img{
 }
 .header .video-container{
     margin:40px 0;
-    border:1px solid gray;
-    border-radius: 10px;
 }
 .header .video-container video{
-    padding:10px;
+    border-radius: 10px;
 }
 .live-bar .banner-content{
     background-color: #009C86;
