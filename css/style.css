@@ -161,6 +161,12 @@ img{
 .header .video-container{
     margin:40px 0;
 }
+/* video::-webkit-media-controls {
+    display: none;
+  } */
+  video::-webkit-media-controls-mute-button {
+    display: none;
+  }
 .header .video-container video{
     border-radius: 10px;
 }
