@@ -504,6 +504,9 @@ img{
     font-size:1.6rem;
     margin-bottom:20px;
   }
+  .section_strategies .pdf-content h3:nth-last-child(2){
+    margin-top: 20px;
+  }
   .section_strategies .pdf-content p{
     font-size:1.3rem;
   }
