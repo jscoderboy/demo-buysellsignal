@@ -515,7 +515,7 @@ img{
     margin-bottom:20px;
   }
   .section_strategies .cta-lifetime .btn{
-    max-width:30%;
+    max-width:35%;
     width:100%;
     margin:60px auto 0;
     display: block;
@@ -731,6 +731,22 @@ img{
     .with-without .flex-container .item-logo img {
         max-width: 235px;
     }
+    .section_strategies{
+        margin:0px;
+        padding:0px;
+    }
+    .section_strategies .secondary-heading{
+        text-align: left;
+        font-size:30px;
+    }
+    .section_strategies h3{
+        font-size:1.3rem;
+        line-height: 1.4;
+    }
+    .section_strategies p{
+        font-size:1.1rem;
+    }
+
     .community .secondary-heading{
         line-height: 1.2;
     }
@@ -777,5 +793,8 @@ img{
      }
      .setup .card-container{
         flex-direction: column;
+     }
+     .section_strategies .cta-lifetime .btn{
+        min-width:100%;
      }
   }
