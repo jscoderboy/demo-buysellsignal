@@ -375,7 +375,7 @@ img{
     border-top:1px dotted #d3d1d1;
     padding-top:20px;
 }
-.pricing .premium-details .cta-lifetime .btn{
+.pricing .premium-details .cta-lifetime .btn, .section_strategies .cta-lifetime .btn{
     display: inline-block;
     text-align: center;
     background-color: #FFFFFF;
@@ -486,6 +486,39 @@ img{
   .with-without .with-item .d-flex i{
     background-color: #009C86;
     color:#fff;  
+  }
+  /* Strategies */
+  .section_strategies{
+    margin:40px;
+    padding:40px;
+    color:#fff;
+  }
+  .section_strategies .common-content{
+    padding-bottom:20px;
+    text-align: center;
+  }
+  .section_strategies .pdf-content{
+    margin-top:40px;
+  }
+  .section_strategies .pdf-content h3{
+    font-size:1.6rem;
+    margin-bottom:20px;
+  }
+  .section_strategies .pdf-content p{
+    font-size:1.3rem;
+  }
+  .section_strategies .pdf-content li{
+    font-size:1.2rem;
+    color:var(--secondary-color);
+  }
+  .section_strategies ul{
+    margin-bottom:20px;
+  }
+  .section_strategies .cta-lifetime .btn{
+    max-width:30%;
+    width:100%;
+    margin:60px auto 0;
+    display: block;
   }
 /* Reviews */
 .review-section{
